@@ -1,0 +1,122 @@
+/*
+.clock-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.left, .right, .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.center {
+    flex-grow: 1;
+}
+
+.time {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.days {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.days div {
+    padding: 5px;
+}
+
+.days .today {
+    color: yellow;
+}
+
+.ampm, .temperature, .calendar {
+    font-size: 24px;
+}
+
+.calendar {
+    margin-top: 10px;
+}
+
+*/
+
+body {
+    background: rgb(91,23,33);
+    background: linear-gradient(90deg, rgba(91,23,33,1) 0%, rgba(112,65,35,1) 100%);
+    color: white;
+}
+
+.container {
+    width: 60%;
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    background-color: black;
+    background: black;
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ampm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.main_clock {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.days {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.today {
+    font-weight: bold;
+    color: yellow;
+}
+
+#temperature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    font-size: 40px;
+}

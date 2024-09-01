@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="showTime()">
+<!--
+    <div class="clock-container">
+        <div class="left">
+            <div class="ampm" id="ampm"></div>
+        </div>
+        <div class="center">
+            <div id="time" class="time"></div>
+            <div id="dayList" class="days"></div>
+        </div>
+        <div class="right">
+            <div id="temperature" class="temperature"></div>
+            <div id="calendar" class="calendar"></div>
+        </div>
+    </div>
+-->
+    
+    <div class="container">
+        <div class="content">
+            <div class="left">
+
+                <h2 id="ampm">PM</h2>
+
+            </div>
+
+            <div class="main">
+
+                <div class="main_clock">
+                    <p id="main_clock">00:00:00</p>
+                </div>
+
+                <div class="days" id="days">
+                    <div>Sun</div>
+                    <div>Mon</div>
+                    <div>Tue</div>
+                    <div>Wed</div>
+                    <div>Thu</div>  
+                    <div>Fri</div>
+                    <div>Sat</div>
+                </div>
+
+            </div>
+
+            <div class="right">
+
+                <h2 id="temperature">...</h2>
+
+<!--    was not right this way had to change
+                <h2 class="calendar" id="calendar">
+                    <div class="month">Aug</div>
+                    <div class="day">29</div>    
+                </h2>
+-->
+                <h2 class="calendar" id="calendar">
+                    <span class="month" id="month">Aug</span>
+                    <span class="day" id="day">29</span>
+                </h2>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+    
+    <!--<script src="datetime.js"></script>-->
+</body>
+</html>
